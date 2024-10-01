@@ -1,65 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografia</title>
-    <style>
-        .principal{
-            width: 800px;
-            padding: 10px;
-            background: lightblue;
-            margin: 10px;
-        }
-        .principal > p{
-            font-family: "Open Sans", Arial, Helvetica, sans-serif;
-            color: black;
-        }
-        nav{
-            border: 1px solid lightgreen;
-            padding: 20px;
-            background: purple;
-        }
-        nav > ol{
-            width: 200px;
-            list-style: none;
-            display: flex;
-        }
-        nav > ol > li > a{
-            text-decoration: none;
-            display: block;
-            color: white;
-            background: lightblue;
-            border-radius: 10px;
-            width: 10px 15px;
-            padding: 10px 15px;
-            font-size: 30px;
-            margin: 30px 10px;
-            font-family: "Open Sans", sans-serif;
-        }
-        nav > ol > li > a:hover{
-            text-transform: uppercase;
-            background: red;
-        }
-    </style>
+    <link rel="stylesheet" href="../src/styles/styles.css">
 </head>
 <body>
-    <div class="principal">
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    Informacion
+                    <ol>
+                        <li>
+                            <a href="../src/gustos/gustos.html">Gustos</a>
+                        </li>
+                        <li>
+                            <a href="../src/hobbies/hobbies.html">Hobbies</a>
+                        </li>
+                        <li>
+                            <a href="../src/informacion_general/informacion_general.html">Informacion general</a>
+                        </li>
+                        <li>
+                            <a href="../src/practicas/practicas.html">Practicas</a>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <section class="principal">
         <h1>Biografia</h1>
         <h2>Michael Vega</h2>
-        <p>Mi nombre es Michael Vega, soy estudiante de la carrera de Diseño Digital, naci en La Paz y tengo ya 20 años<br>
-        este año cumplo 21</p>
-    </div>
-    <nav>
-        <ol>
-            <li>
-                <a href="/src/trabajo_quien_soy/gustos.html">Gustos</a>
-            </li>
-            <li>
-                <a href="/src/trabajo_quien_soy/hobbies.html">Hobbies</a>
-            </li>
-            <li>
-                <a href="/src/trabajo_quien_soy/informacion_general.html">Informacion general</a>
-            </li>
-        </ol>
-    </nav>
+        <p>Mi nombre es Michael Vega, soy estudiante de la carrera de Diseño Digital, naci en La Paz y tengo ya 20 años este año cumplo 21</p>
+    </section>
+    <section class="imagenes">
+        <img src="../src/img/IMG_20191220_100449.jpg">
+    </section>
 </body>
 </html>

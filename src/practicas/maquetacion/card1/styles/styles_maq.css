@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../../../../img/Fondo5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.card1{
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    background: white;
+    border: 1px solid rgb(177, 177, 177);
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.imagen{
+    width: 100%;
+    border-radius: 30px;
+}
+.carga{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.carga > p:nth-child(1){
+    font-size: 40px;
+    margin: 0;
+    color: #6D25B9;
+}
+.carga > p:nth-child(2){
+    font-size: 20px;
+    margin: 0;
+    color: #7C767E;
+}
+.archivos{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.archivos > p:nth-child(1){
+    padding: 5px;
+}
+.archivos > p:nth-child(2){
+    padding: 5px;
+}
+.archivos > p:nth-child(3){
+    padding: 5px;
+}
+.boton{
+    text-align: center;
+}
+.boton > button{
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    background: #7327E4;
+    border-radius: 20px;
+}
+.card2{
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    background: white;
+    border: 1px solid rgb(155, 155, 155);
+    width: 20%;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.imagen2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+.titulo{
+    margin: 0;
+    padding-top: 30px;
+    font-size: 12px;
+}
+.descripcion{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #606060;
+}
+.boton2 > button{
+    padding: 10px 50px;
+    color: white;
+    border: none;
+    background: #F1B049;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+.botones > .iluminado{
+    width: 10px;
+    height: 10px;
+    background: #979FA4;
+    border-radius: 50%;
+    border: none;
+}
+.botones > button{
+    width: 10px;
+    height: 10px;
+    background: #E4E9EC;
+    border-radius: 50%;
+    border: none;
+}
+.card3{
+    font-family: "Open Sans", sans-serif;
+    background: white;
+    border: 1px solid rgb(173, 173, 173);
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.contenedor{
+    padding: 20px;
+}
+.imagen3{
+    width: 100%;
+}
+.titulo2{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 10px;
+    color: #535353;
+}
+.descripcion2{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #747575;
+}
+.boton3 > button{
+    padding: 10px 10px;
+    width: 100%;
+    background: #EE68A1;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 37px;
+}
+.card4{
+    font-family: "Open Sans", sans-serif;
+    background: white;
+    border: 10px solid rgb(128, 128, 128);
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.primera{
+    display: flex;
+    padding-bottom: 150px;
+}
+.primera > p{
+    margin: 10px 30px 40px 30px;
+}
+.segunda{
+    display: flex;
+}
+.ultima{
+    display: flex;
+    margin: 0 20px 20px 20px;
+}
+.imagen4{
+    width: 300px;
+    height: 300px;
+}
+.ultima > h1{
+    font-size: 250px;
+}
+.segunda{
+    position: relative;
+}
+.segunda > p:nth-child(1){
+    margin-left: 1%;
+}
+.segunda > p:nth-child(2){
+    margin-left: 90%;
+}
+@media screen and (max-width:1354px){
+    body{
+        background-image: url(../../../../img/FondoV5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

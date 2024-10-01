@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/Fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.principal{
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(118, 35, 137);
+}
+.principal > h1{
+    margin: 5px;
+}
+.principal > h2{
+    margin: 5px;
+}
+.principal > p{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.imagenes{
+    position: relative;
+}
+.imagenes > img{
+    height: 350px;
+    width: 500px;
+    margin: 20px;
+}
+
+header{
+    background: rgba(56, 56, 56, 0.495);
+}
+
+nav > ol{
+    padding-top: 20px;
+    list-style: none;
+    position: relative;
+    color: white;
+    left: 85%;
+    bottom: 10px;
+    width: 200px;
+}
+nav > ol > li > ol{
+    display: none;
+    list-style: none;
+}
+nav > ol > li > ol > li > a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+nav > ol:hover > li > ol{
+    padding-top: 15px;
+    display: block;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 15px #ffffff);
+}
+nav > ol > li > ol > li > a:hover{
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 15px #ffffff);
+    cursor: pointer;
+}
+@media screen and (max-width:1354px){
+    body{
+        background-image: url(../img/FondoV1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+        background: rgba(118, 118, 118, 0.427);
+    }
+}

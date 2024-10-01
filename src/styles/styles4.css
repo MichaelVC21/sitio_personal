@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Fondo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+section{
+    margin: 15px;
+    color: antiquewhite;
+}
+section > h1{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1354px){
+    body{
+        background-image: url(../img/FondoV4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+        background: rgba(118, 118, 118, 0.427);
+    }
+}
